@@ -1,6 +1,9 @@
 import cv2 as cv
 import numpy as np
 
+#Este es un programa de template matching usando la libreria de Open cv pero desde mi perspectiva
+#Los archivos .jpg pueden ser cambiados por una imagen y una fraccion de la misma 
+#en este programa por ejemplo se señalara donde esta el sombrero de un ratoncito que usa sombrero
 
 def Temma(img,temp):
         y_template, x_template = temp.shape[:2]
@@ -35,7 +38,7 @@ def Temma(img,temp):
 
 if __name__ == "__main__":
     img = cv.imread('busca.jpg',0) # El 0 convierte a escala de grises
-    temp = cv.imread('busca3.jpg',0)
+    temp = cv.imread('busca3.jpg',0) 
 
     alto, largo = temp.shape[:2]
     #print("alto:",alto)

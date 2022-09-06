@@ -1,2 +1,2 @@
-# Python_Vision_atificial_IA
-Recopilado de practicas en python con el tema de vision artificial e IA 
+# Python_template_matching
+Practica donde usando la libreria open cv, realizo un template matching a mi manera
